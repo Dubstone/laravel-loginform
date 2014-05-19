@@ -1,0 +1,49 @@
+ html { height: 100%;}
+ body{
+     height: 100%;
+     background: -moz-radial-gradient(center, ellipse cover,  rgba(255, 255, 255, 0.4) 20%,rgba(61, 61, 61, 0.5) 100%), url('../../img/backend/squared_metal.png');
+     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(40%,rgba(255,255,255,0.4)), color-stop(100%,rgba(61,61,61,0.8))), url('../../img/backend/squared_metal.png');
+     background: -webkit-radial-gradient(center, ellipse cover,  rgba(255, 255, 255, 0.4) 20%,rgba(61, 61, 61, 0.5) 100%), url('../../img/backend/squared_metal.png');
+     background: -o-radial-gradient(center, ellipse cover,  rgba(255, 255, 255, 0.4) 20%,rgba(61, 61, 61, 0.5) 100%), url('../../img/backend/squared_metal.png');
+     background: -ms-radial-gradient(center, ellipse cover,  rgba(255, 255, 255, 0.4) 20%,rgba(61, 61, 61, 0.5) 100%), url('../../img/backend/squared_metal.png');
+     background: radial-gradient(ellipse at center,  rgba(255, 255, 255, 0.4) 20%,rgba(61, 61, 61, 0.5) 100%), url('../../img/backend/squared_metal.png');
+ }
+
+ #parent{
+     display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     height: 100%;
+     align-items: center; /*normal*/
+     align-content: center;
+     -webkit-box-pack: center; /*safari*/
+     -webkit-box-align: center;
+ }
+#loginform {
+  margin: auto;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(124, 124, 124, 0.75);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(124, 124, 124, 0.75);
+  box-shadow:         0px 0px 10px 0px rgba(124, 124, 124, 0.75);
+}
+
+#loginform h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-control {
+  box-shadow: none;
+  margin-bottom: 5px;
+
+}
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+  outline: none;
+}
