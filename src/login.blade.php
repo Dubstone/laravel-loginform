@@ -13,7 +13,7 @@
 
 <div id="parent">
 <div class="container col-xs-12 col-sm-6 col-md-4" id="loginform">
-    <h1>GoProperty</h1>
+    <h1>@lang('backend.login-title')</h1>
 
     @if($errors->any())
     <div class="alert alert-danger">
@@ -28,7 +28,7 @@
             {{ Form::password('password', ['class' => 'form-control', 'placeholder' => trans('backend.password')]) }}
         </div>
 
-        <button type="submit" class="btn-custom btn-primary btn-block" id="Login">@lang('backend.login')</button>
+        <button type="submit" class="btn btn-primary btn-block" id="Login">@lang('backend.login')</button>
 
         <div class="checkbox">
             <label>
